@@ -5,4 +5,16 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="Style1" parent="Base.Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:text">"Style1"</item>
+        <item name="android:alpha">0.5</item>
+    </style>
+
+    <style name="Style1.Style2">
+        <item name="android:textColor">@android:color/holo_purple</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:text">"Style2"</item>
+    </style>
 </resources>
